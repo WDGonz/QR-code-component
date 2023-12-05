@@ -20,3 +20,24 @@ img{
     width: 100%;
 }
 
+@media (max-width: 375px) {
+    .container {
+      max-width: 375px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .element {
+      margin: 20px;
+      padding: 20px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .image {
+      width: 75%;
+    }
+  
+    .text {
+      font-size: 20px;
+    }
+  }
+  
